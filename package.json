@@ -1,29 +1,24 @@
-// 🚀 Instant Deployment Config for GitHub → Netlify
-// Place these two files at the root of your repo
-
-
-// ---------- package.json ----------
 {
-"name": "india-matrimonial-dashboard",
-"version": "1.0.0",
-"private": true,
-"scripts": {
-"dev": "vite",
-"build": "vite build",
-"preview": "vite preview"
-},
-"dependencies": {
-"react": "^18.3.1",
-"react-dom": "^18.3.1",
-"recharts": "^2.10.3",
-"framer-motion": "^11.0.0",
-"lucide-react": "^0.368.0"
-},
-"devDependencies": {
-"vite": "^5.3.1",
-"@vitejs/plugin-react": "^4.3.1",
-"tailwindcss": "^3.4.10",
-"autoprefixer": "^10.4.19",
-"postcss": "^8.4.38"
-}
+  "name": "india-matrimonial-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.10.3",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.368.0"
+  },
+  "devDependencies": {
+    "vite": "^5.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tailwindcss": "^3.4.10",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38"
+  }
 }
